@@ -6,8 +6,9 @@ namespace Movie.Controllers;
 public class HelloWorldController : Controller
 {
     // GET: /HelloWorld/
-    public string Index() {
-        return "Default action method";
+    public IActionResult Index()
+    {
+        return View();
     }
 
     // GET: /HelloWorld/Welcome/
